@@ -7,3 +7,7 @@ body {
     padding: 0;
 }
 
+section, article, aside, nav, header, main, footer {
+    display: none;
+}
+
