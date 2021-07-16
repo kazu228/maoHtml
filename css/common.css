@@ -8,6 +8,6 @@ body {
 }
 
 section, article, aside, nav, header, main, footer {
-    display: none;
+    display: block;
 }
 
