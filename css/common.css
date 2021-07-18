@@ -98,3 +98,8 @@ footer {
 	width: 100%;
 	padding: 6em 0;
 }
+
+.row {
+    max-width: 930px;
+    margin: 0 auto 50px;
+}
