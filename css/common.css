@@ -34,3 +34,67 @@ img {
 .center {
     text-align: center;
 }
+
+header {
+    width: 100%;
+    padding: 6em 0 4em;
+    background: url("../images/header.jpg") no-repeat fixed center bottom / cover ;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+header#itempage {
+    padding: 4em 0 2em;
+}
+
+header nav {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+header nav ul {
+    margin: auto;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #FFF;
+	font-family: "Montserrat",sans-serif;
+	font-size: 16px;
+	padding: 0 1em;
+}
+
+header h1 a {
+	color: #FFF;
+}
+
+main {
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+main a { color: #2c9795; }
+
+main a:link,
+main a:visited { text-decoration: none;}
+
+main a:hover, main a:active { text-decoration: underline;}
+
+footer {
+    background-color: #01183d;
+    color: #4c6ea4;
+	font-family: "Montserrat",sans-serif;
+	text-align:center;
+	width: 100%;
+	padding: 6em 0;
+}
