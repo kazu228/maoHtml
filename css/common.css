@@ -103,3 +103,17 @@ footer {
     max-width: 930px;
     margin: 0 auto 50px;
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col {
+    float: left;
+    margin-left: 4%;
+}
+.col:first-child {margin-left: 0;}
+.harf {width: 48%;}
+.quarter {width: 22%;}
